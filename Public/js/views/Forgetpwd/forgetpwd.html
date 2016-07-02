@@ -1,0 +1,12 @@
+<div class="forgetpwd">
+    <div class="title">找回密码</div>
+    <div class="user-box input">
+        <i class="iconfont">&#xe615;</i>
+        <input type="text" placeholder="请输入手机号码" class="base" ng-model="mobile">
+    </div>
+    <div class="vali-box">
+        <input type="text" placeholder="输入验证码" class="vali-text base" ng-model="captcha">
+        <div class="get-vali base" ng-click="getvercode()">{{vercodebtntext}}</div>
+    </div>
+    <div class="submit-btn base" ng-click="resetPwd()">提交</div>
+</div>

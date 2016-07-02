@@ -1,0 +1,34 @@
+<div class="register">
+    <div class="title">欢迎注册</div>
+    <div class="user-box input">
+        <i class="iconfont">&#xe615;</i>
+        <input type="text" placeholder="请输入手机号码" maxlength="13" ng-blur="validate('mobile')" ng-click="showdefaultnotice('mobile')" ng-model="data.mobile" class="base">
+        <span class="notice" ng-show="notice.mobile==1">手机号码格式正确</span>
+        <span class="notice warn" ng-show="notice.mobile==2">请输入正确的手机号码</span>
+    </div>
+    <div class="pwd-box input">
+        <i class="iconfont">&#xe614;</i>
+        <input type="text" placeholder="请设置密码" maxlength="20" ng-blur="validate('pwd')" ng-click="showdefaultnotice('pwd')" ng-model="data.pwd" class="base">
+        <span class="notice" ng-show="notice.pwd==1">密码格式正确</span>
+        <span class="notice warn" ng-show="notice.pwd==2">密码必须行包含字母与数字</span>
+    </div>
+    <div class="repwd-box input">
+        <i class="iconfont">&#xe614;</i>
+        <input type="text" placeholder="再次输入密码" maxlength="20" ng-blur="validate('repwd')" ng-click="showdefaultnotice('repwd')" ng-model="data.repwd" class="base">
+        <span class="notice" ng-show="notice.repwd==0">请再次输入密码</span>
+        <span class="notice" ng-show="notice.repwd==1"></span>
+        <span class="notice warn" ng-show="notice.repwd==2">两次输入密码不一致</span>
+    </div>
+    <div class="vali-box">
+        <input type="text" placeholder="输入验证码" ng-blur="validate('vercode')" ng-model="data.vercode" class="vali-text base">
+        <div class="get-vali base" ng-click="getvercode()">{{vercodebtntext}}</div>
+        <span class="notice"></span>
+        <span class="notice warn" ng-show="notice.vercode==2">请输入正确的验证码</span>
+    </div>
+    <div class="user-agreement">
+        <input type="checkbox" ng-click="isChecked=!isChecked">
+        <span class="service">已阅读并同意《零猫用户服务条款》</span>
+        <span ng-show="showService" class="notice warn">您必须阅读并同意《零猫用户服务条款》后才可以完成注册</span>
+    </div>
+    <div class="submit-btn base" ng-click="mainReg()">提交</div>
+</div>

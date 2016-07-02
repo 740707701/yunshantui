@@ -1,0 +1,36 @@
+<div class="login">
+    <div class="title">欢迎登录</div>
+    <div class="user-box">
+        <div class="admin base">
+            <input type="radio" class="account-radio">主账户登录
+        </div>
+        <div class="common base">
+            <input type="radio" class="account-radio">员工账户登录
+        </div>
+    </div>
+    <div class="tel-box input">
+        <i class="iconfont">&#xe615;</i>
+        <input type="text" placeholder="请输入手机号" class="base" ng-model="username">
+    </div>
+    <div class="pwd-box input">
+        <i class="iconfont">&#xe614;</i>
+        <input type="password" placeholder="密码" class="base" ng-model="pwd">
+    </div>
+    <div class="vali-box">
+        <input type="text" placeholder="输入验证码" class="vali-text base" ng-model="vercode">
+        <div class="vali-img base">
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="login-btn base" ng-click="login()">登录</div>
+    <div class="footer-box">
+        <div class="save-user">
+            <input type="checkbox" ng-click="rememberCheck()"> 记住用户名
+        </div>
+        <div class="forgetpwd-text" ui-sref="users.forgetpwd">忘记密码</div>
+    </div>
+</div>
+
+
+
+
