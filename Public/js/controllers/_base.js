@@ -1,4 +1,10 @@
 define(['./controllers',
-		'./home-controller'
+		'./home-controller',
+		'./main-controller',
+		'./custom-controller',
+		'./talent-controller',
+		'./shantui-controller',
+		'./manageconsole-controller',
+		'./publicity-controller',
 		],function(){
 });

@@ -1,0 +1,62 @@
+<div class="main">
+	<div class="controller-fluid">
+		<div class="navbar navbar-fixed-top yun-navbar">
+			<div class="navbar-header">
+		        <a class="navbar-brand logo-img" href="#/">
+		            <img alt="Brand" src="./image/common/logo.png">
+		        </a>
+		    </div>
+		    <div class="navbar-center">智能人才推荐云服务</div>
+		    <ul class="navbar-right">
+		    	<li ui-sref="main.custom">定制职位推荐</li>
+		    	<li ui-sref="main.talent">
+		    		<i class="iconfont"></i>人才库
+		    	</li>
+		    	<li>15995638423</li>
+		    </ul>
+		</div>
+		<div class="row-content row">
+			<div class="menulist">
+				<div class="menu current" ng-click="vm.showIndex=1" ng-class="{'current':showIndex==1}" ui-sref="main">
+					<i class="iconfont"></i>首页
+				</div>
+				<div class="menu" ng-click="vm.showIndex=2" ng-class="{'current':showIndex==2}" ui-sref="main.shantui" ui-sref-opts="{reload:true}">
+					<i class="iconfont"></i>闪推
+				</div>
+			</div>
+			<!-- <div class="col-ms-1 col-md-1 col-lg-1">
+			</div> -->
+			<div ui-view class="right-content">
+				<div class="contrainer-fluid">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div class="col-sm-10 col-md-10 col-lg-10">
+							<div class="content">
+								<div class="title">
+									<i class="iconfont"></i>我的招聘
+								</div>
+								<table class="table">
+									<tr class="border-bot">
+										<td colspan="2" rowspan="2" class="vertical">招聘职位</td>
+										<td colspan="5">状态</td>
+										<td colspan="2" rowspan="2" class="vertical">招聘主管</td>
+										<td colspan="2" rowspan="2" class="vertical">负责HR</td>
+									</tr>
+									<tr>
+										<td>推送人才</td>
+										<td>感兴趣</td>
+										<td>正在邀约</td>
+										<td>邀约成功</td>
+										<td>邀约失败</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="col-sm-2 col-md-2 col-lg-2">
+							<div>这里是公司信息</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

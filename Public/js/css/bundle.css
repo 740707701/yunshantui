@@ -1,4 +1,15 @@
 /*主打色**/
+/*文本主颜色*/
+/*logo底色*/
+/*左侧栏*/
+/*左侧栏选中颜色*/
+/*浅绿*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
 /*灰色按钮*/
 /*input placeholder 字体颜色*/
 body {
@@ -180,6 +191,133 @@ ul {
 .clearfix {
   zoom: 1;
 }
+
+
+/*主打色**/
+/*文本主颜色*/
+/*logo底色*/
+/*左侧栏*/
+/*左侧栏选中颜色*/
+/*浅绿*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*灰色按钮*/
+/*input placeholder 字体颜色*/
+body {
+  font-size: 62.5%;
+}
+.main {
+  /*font-family: "微软雅黑";*/
+}
+.main .yun-navbar {
+  height: 60px;
+  background-color: #339999;
+  color: #fff;
+  font-size: 1.6em;
+}
+.main .yun-navbar .logo-img {
+  float: left;
+  width: 180px;
+  text-align: center;
+  background-color: #2b8c8c;
+  display: inline-block;
+  margin-right: 5px;
+}
+.main .yun-navbar .logo-img img {
+  width: 150px;
+  width: 60px;
+  display: inline-block;
+  margin-top: -8px;
+}
+.main .yun-navbar .navbar-center {
+  float: left;
+  width: 150px;
+  line-height: 60px;
+  text-align: center;
+}
+.main .yun-navbar .navbar-right {
+  /*float:right;*/
+  display: inline-block;
+}
+.main .yun-navbar .navbar-right li {
+  float: left;
+  width: 140px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border-left: 8px solid #2b8c8c;
+}
+.main .yun-navbar .navbar-right li:hover {
+  font-weight: bold;
+}
+.main .row-content {
+  width: 100%;
+  background-color: #f0f0f0;
+  position: absolute;
+  top: 59px;
+  left: 0;
+  bottom: 0;
+}
+.main .row-content .menulist {
+  width: 100px;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  background-color: #485259;
+}
+.main .row-content .menulist .menu {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.main .row-content .menulist .menu i {
+  font-size: 20px;
+}
+.main .row-content .menulist .current {
+  background-color: #999;
+}
+.main .row-content .right-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-left: 100px;
+  padding: 20px;
+}
+.main .row-content .right-content .content .title {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #edfefe;
+  color: #333;
+  margin: 10px 0;
+  padding-left: 20px;
+}
+.main .row-content .right-content .content .table tr td {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #666;
+  border-right: 1px solid #fff;
+}
+.main .row-content .right-content .content .table tr .vertical {
+  vertical-align: middle;
+}
+.main .row-content .right-content .content .table .border-bot {
+  border-bottom: 1px solid #fff;
+}
+
 
 @font-face {
   font-family: "iconfont";

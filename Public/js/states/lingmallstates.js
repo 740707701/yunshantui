@@ -2,10 +2,10 @@ define(['./states'],function(states){
 	'use strict';
 	states.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlRouterProvider){
 		$urlRouterProvider.otherwise('/');
-		$stateProvider.state('home',{
+		$stateProvider.state('main',{
 			url:'/',
-			controller:'HomeCtrl',
-			templateUrl:'./views/Home/home.html'
+			controller:'MainCtrl',
+			templateUrl:'./views/Main/main.html'
 		});
 
 		/*$stateProvider.state('users',{
@@ -33,36 +33,39 @@ define(['./states'],function(states){
 			templateUrl:'./views/Resetpwd/resetpwd.html',
 			controller:'ResetpwdCtrl'
 		});
-		$stateProvider.state('main',{
-			url:'/main',
-			controller:'MainCtrl',
-			templateUrl:'./views/main.html'
+		*/
+		$stateProvider.state('main.home',{
+			url:'home',
+			controller:'HomeCtrl',
+			templateUrl:'./views/Home/home.html'
 		});
-		$stateProvider.state('main.mygoods',{
-			url:'/mygoods',
-			templateUrl:'./views/Goodsmanage/mygoods.html',
-			controller:'MygoodsCtrl'
+		$stateProvider.state('main.shantui',{
+			url:'shantui',
+			templateUrl:'./views/Shantui/shantui.html',
+			controller:'ShantuiCtrl'
 		});
-		$stateProvider.state('main.brand',{
-			url:'/brand',
-			templateUrl:'./views/Goodsmanage/brand.html',
-			controller:'BrandCtrl'
+		$stateProvider.state('main.custom',{
+			url:'custom',
+			templateUrl:'./views/Custom/custom.html',
+			controller:'CustomCtrl'
 		});
-		$stateProvider.state('main.classify',{
-			url:'/classify',
-			templateUrl:'./views/Goodsmanage/classify.html',
-			controller:'ClassifyCtrl'
+		$stateProvider.state('main.talent',{
+			url:'talent',
+			templateUrl:'./views/Talent/talent.html',
+			controller:'TalentCtrl'
 		});
-		$stateProvider.state('main.copymanage',{
-			url:'/copymanage',
-			templateUrl:'./views/Matermanage/copymanage.html',
-			controller:'CopymanageCtrl'
+		$stateProvider.state('main.manageconsole',{
+			url:'manageconsole',
+			templateUrl:'./views/Manageconsole/manageconsole.html',
+			controller:'ManageconsoleCtrl'
 		});
-		$stateProvider.state('main.imagemanage',{
-			url:'/imagemanage',
-			templateUrl:'./views/Matermanage/imagemanage.html',
-			controller:'ImagemanageCtrl'
+		$stateProvider.state('publicity',{
+			url:'publicity',
+			templateUrl:'./views/Publicity/publicity.html',
+			controller:'PublicityCtrl'
 		});
+
+		/*
 		$stateProvider.state('main.templatemanage',{
 			url:'/templatemanage',
 			templateUrl:'./views/Matermanage/templatemanage.html',
@@ -92,6 +95,7 @@ define(['./states'],function(states){
 			url:'/fastgraphic',
 			templateUrl:'./views/Fastgraphic/fastgraphic.html',
 			controller:'FastgraphicCtrl'
-		});*/
+		});
+		*/
 	}]);
 });
