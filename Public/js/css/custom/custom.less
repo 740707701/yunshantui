@@ -1,0 +1,183 @@
+@import "../common/colors.less";
+.custom {
+	.nav{
+		height:60px;
+		line-height:60px;
+		padding-left:40px;
+		background-color:@main-color-light;
+	}
+	.content {
+		width:100%;
+		display: inline-block;
+		.left-content {
+			text-align: center;
+			padding:20px 0 50px 0;
+			.title-box{
+				width:100%;
+				display: inline-block;
+				.title {
+					font-size:1.8em;
+					line-height:30px;
+				}
+				.prompt {
+					color:red;
+					margin:20px 0;
+				}
+			}
+			.info-box {
+				display: inline-block;
+				width:100%;
+				.info-title {
+					width:100%;
+					height:30px;
+					line-height: 30px;
+					padding-left:30px;
+					text-align: left;
+					border-left:3px solid @main-color-logobg;
+					background-color:@main-color-gray;
+					span {
+						color:red;
+						margin:0 10px;
+					}
+				}
+				.info-detail {
+					width:100%;
+					margin:40px 0;
+					input {
+						outline: none;
+						width:195px;
+						height:45px;
+						line-height: 45px;
+						padding-left:10px;
+						margin-bottom:30px;
+						color:@main-color-text;
+						border:1px solid @main-color-border;
+					}
+					.sample {
+						color:@main-color;
+					}
+					.level {
+						display: inline-block;
+						li {
+							float:left;
+							width:110px;
+							height:45px;
+							line-height: 45px;
+							text-align: center;
+							border:1px solid @main-color;
+							color:@main-color;
+							margin-right:30px;
+							cursor: pointer;
+						}
+						li:hover {
+							background-color:@main-color-tagbg;
+							border:none;
+						}
+					}
+				}
+				.info-taglist {
+					width:100%;
+					text-align: left;
+					padding:20px 0 20px 0;
+					.tags-list {
+						display: inline-block;
+						li {
+							float:left;
+							height:26px;
+							line-height:26px;
+							background-color:@main-color-tagbg;
+							color:@main-color-text;
+							margin-right:20px;
+							.tag {
+								padding:0 10px;
+							}
+							.del-btn,.add-btn {
+								width:26px;
+								height:26px;
+								line-height: 26px;
+								text-align: center;
+								background-color: @main-color-logobg;
+								color:#fff;
+								display:inline-block;
+								cursor: pointer;
+							}
+						}
+					}
+					.skill-tags {
+						padding-left:100px;
+					}
+					.keyword {
+						margin-top:40px;
+						.text {
+							float: left;
+							height:26px;
+							line-height:26px;
+						}
+					}
+					.add-keyword {
+						display:inline-block;
+						margin: 20px 0 50px 100px;
+						padding:6px 10px;
+						border:1px solid @main-color-logobg;
+						color:@main-color-logobg;
+						cursor: pointer;
+					}
+				}
+			}
+			.save-btn {
+				padding:10px 25px;
+				background-color:rgb(255,167,38);
+				color:#fff;
+				border-radius: 3px;
+				display: inline-block;
+				cursor: pointer;
+			}
+		}
+		.right-floor {
+			padding-top: 102px;
+			.floor-box {
+				width:210px;
+				height:400px;
+				border:1px solid @main-color-light;
+				border-top:3px solid @main-color-logobg;
+				text-align: center;
+				.floor-border {
+					width:130px;
+					height:330px;
+					border-left:1px solid @main-color-border;
+					display: inline-block;
+					margin-top:35px;
+					.floor-list {
+						float:left;
+						display:inline-block;
+						li {
+							height:30px;
+							line-height:30px;
+							margin-bottom:40px;
+							.point {
+								width:10px;
+								height:10px;
+								display: inline-block;
+								margin-left:-5px;
+								border-radius:5px;
+								border:1px solid @main-color-border;
+								background-color: #fff;
+							}
+							.point-current {
+								background-color:@main-color-logobg;
+								border:none;
+							}
+							.floor {
+								padding:5px 20px;
+								margin-left:10px;
+							}
+							.floor-current {
+								background-color:@main-color-light;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

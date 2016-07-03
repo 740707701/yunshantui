@@ -14,17 +14,17 @@
 			display:inline-block;
 			margin-right:5px;
 			img {
-				width:150px;
-				width:60px;
+				height:60px;
 				display: inline-block;
-				margin-top:-8px;
+				margin-top:-20px;
 			}
 		}
 		.navbar-center {
 			float:left;
-			width:150px;
 			line-height: 60px;
 			text-align: center;
+			padding-left:10px;
+
 		}
 		.navbar-right {
 			/*float:right;*/
@@ -43,7 +43,6 @@
 				font-weight: bold;
 			}
 		}
-		
 	}
 	.row-content {
 		width:100%;
@@ -82,36 +81,38 @@
 			left:0;
 			bottom:0;
 			margin-left:100px;
-			padding:20px;
-			.content {
-				.title {
-					width:100%;
-					height:30px;
-					line-height:30px;
-					background-color:@main-color-light;
-					color:@main-color-text;
-					margin:10px 0;
-					padding-left:20px;
-				}
-				.table {
-					tr {
-						td {
-							height:20px;
-							line-height: 20px;
-							text-align:center;
-							background-color:#666;
-							border-right:1px solid #fff;
+			background-color: #fff;
+			overflow-y:scroll;
+			.myrecruit {
+				padding:0;
+				.content {
+					.title {
+						width:100%;
+						height:30px;
+						line-height:30px;
+						background-color:@main-color-light;
+						color:@main-color-text;
+						margin:10px 0;
+						padding-left:20px;
+					}
+					.table {
+						tr {
+							td {
+								height:20px;
+								line-height: 20px;
+								text-align:center;
+								background-color:#666;
+								border-right:1px solid #fff;
+							}
+							.vertical {
+								vertical-align: middle;
+							}
 						}
-						.vertical {
-							vertical-align: middle;
+						.border-bot {
+							border-bottom:1px solid #fff;
 						}
 					}
-					.border-bot {
-						border-bottom:1px solid #fff;
-					}
 				}
-
-
 			}
 		}
 	}

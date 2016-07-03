@@ -4,9 +4,9 @@
 /*左侧栏*/
 /*左侧栏选中颜色*/
 /*浅绿*/
-/**/
-/**/
-/**/
+/*边框颜色*/
+/*浅灰背景色*/
+/*tag标签背景颜色*/
 /**/
 /**/
 /**/
@@ -192,6 +192,205 @@ ul {
   zoom: 1;
 }
 
+/*主打色**/
+/*文本主颜色*/
+/*logo底色*/
+/*左侧栏*/
+/*左侧栏选中颜色*/
+/*浅绿*/
+/*边框颜色*/
+/*浅灰背景色*/
+/*tag标签背景颜色*/
+/**/
+/**/
+/**/
+/*灰色按钮*/
+/*input placeholder 字体颜色*/
+body {
+  font-size: 62.5%;
+}
+.custom .nav {
+  height: 60px;
+  line-height: 60px;
+  padding-left: 40px;
+  background-color: #edfefe;
+}
+.custom .content {
+  width: 100%;
+  display: inline-block;
+}
+.custom .content .left-content {
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
+.custom .content .left-content .title-box {
+  width: 100%;
+  display: inline-block;
+}
+.custom .content .left-content .title-box .title {
+  font-size: 1.8em;
+  line-height: 30px;
+}
+.custom .content .left-content .title-box .prompt {
+  color: red;
+  margin: 20px 0;
+}
+.custom .content .left-content .info-box {
+  display: inline-block;
+  width: 100%;
+}
+.custom .content .left-content .info-box .info-title {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+  text-align: left;
+  border-left: 3px solid #2b8c8c;
+  background-color: #f4f9fa;
+}
+.custom .content .left-content .info-box .info-title span {
+  color: red;
+  margin: 0 10px;
+}
+.custom .content .left-content .info-box .info-detail {
+  width: 100%;
+  margin: 40px 0;
+}
+.custom .content .left-content .info-box .info-detail input {
+  outline: none;
+  width: 195px;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+.custom .content .left-content .info-box .info-detail .sample {
+  color: #339999;
+}
+.custom .content .left-content .info-box .info-detail .level {
+  display: inline-block;
+}
+.custom .content .left-content .info-box .info-detail .level li {
+  float: left;
+  width: 110px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #339999;
+  color: #339999;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.custom .content .left-content .info-box .info-detail .level li:hover {
+  background-color: #d2f7f7;
+  border: none;
+}
+.custom .content .left-content .info-box .info-taglist {
+  width: 100%;
+  text-align: left;
+  padding: 20px 0 20px 0;
+}
+.custom .content .left-content .info-box .info-taglist .tags-list {
+  display: inline-block;
+}
+.custom .content .left-content .info-box .info-taglist .tags-list li {
+  float: left;
+  height: 26px;
+  line-height: 26px;
+  background-color: #d2f7f7;
+  color: #333;
+  margin-right: 20px;
+}
+.custom .content .left-content .info-box .info-taglist .tags-list li .tag {
+  padding: 0 10px;
+}
+.custom .content .left-content .info-box .info-taglist .tags-list li .del-btn,
+.custom .content .left-content .info-box .info-taglist .tags-list li .add-btn {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #2b8c8c;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+}
+.custom .content .left-content .info-box .info-taglist .skill-tags {
+  padding-left: 100px;
+}
+.custom .content .left-content .info-box .info-taglist .keyword {
+  margin-top: 40px;
+}
+.custom .content .left-content .info-box .info-taglist .keyword .text {
+  float: left;
+  height: 26px;
+  line-height: 26px;
+}
+.custom .content .left-content .info-box .info-taglist .add-keyword {
+  display: inline-block;
+  margin: 20px 0 50px 100px;
+  padding: 6px 10px;
+  border: 1px solid #2b8c8c;
+  color: #2b8c8c;
+  cursor: pointer;
+}
+.custom .content .left-content .save-btn {
+  padding: 10px 25px;
+  background-color: #ffa726;
+  color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
+.custom .content .right-floor {
+  padding-top: 102px;
+}
+.custom .content .right-floor .floor-box {
+  width: 210px;
+  height: 400px;
+  border: 1px solid #edfefe;
+  border-top: 3px solid #2b8c8c;
+  text-align: center;
+}
+.custom .content .right-floor .floor-box .floor-border {
+  width: 130px;
+  height: 330px;
+  border-left: 1px solid #ddd;
+  display: inline-block;
+  margin-top: 35px;
+}
+.custom .content .right-floor .floor-box .floor-border .floor-list {
+  float: left;
+  display: inline-block;
+}
+.custom .content .right-floor .floor-box .floor-border .floor-list li {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.custom .content .right-floor .floor-box .floor-border .floor-list li .point {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-left: -5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.custom .content .right-floor .floor-box .floor-border .floor-list li .point-current {
+  background-color: #2b8c8c;
+  border: none;
+}
+.custom .content .right-floor .floor-box .floor-border .floor-list li .floor {
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+.custom .content .right-floor .floor-box .floor-border .floor-list li .floor-current {
+  background-color: #edfefe;
+}
+
 
 /*主打色**/
 /*文本主颜色*/
@@ -199,9 +398,9 @@ ul {
 /*左侧栏*/
 /*左侧栏选中颜色*/
 /*浅绿*/
-/**/
-/**/
-/**/
+/*边框颜色*/
+/*浅灰背景色*/
+/*tag标签背景颜色*/
 /**/
 /**/
 /**/
@@ -228,16 +427,15 @@ body {
   margin-right: 5px;
 }
 .main .yun-navbar .logo-img img {
-  width: 150px;
-  width: 60px;
+  height: 60px;
   display: inline-block;
-  margin-top: -8px;
+  margin-top: -20px;
 }
 .main .yun-navbar .navbar-center {
   float: left;
-  width: 150px;
   line-height: 60px;
   text-align: center;
+  padding-left: 10px;
 }
 .main .yun-navbar .navbar-right {
   /*float:right;*/
@@ -293,9 +491,13 @@ body {
   left: 0;
   bottom: 0;
   margin-left: 100px;
-  padding: 20px;
+  background-color: #fff;
+  overflow-y: scroll;
 }
-.main .row-content .right-content .content .title {
+.main .row-content .right-content .myrecruit {
+  padding: 0;
+}
+.main .row-content .right-content .myrecruit .content .title {
   width: 100%;
   height: 30px;
   line-height: 30px;
@@ -304,17 +506,17 @@ body {
   margin: 10px 0;
   padding-left: 20px;
 }
-.main .row-content .right-content .content .table tr td {
+.main .row-content .right-content .myrecruit .content .table tr td {
   height: 20px;
   line-height: 20px;
   text-align: center;
   background-color: #666;
   border-right: 1px solid #fff;
 }
-.main .row-content .right-content .content .table tr .vertical {
+.main .row-content .right-content .myrecruit .content .table tr .vertical {
   vertical-align: middle;
 }
-.main .row-content .right-content .content .table .border-bot {
+.main .row-content .right-content .myrecruit .content .table .border-bot {
   border-bottom: 1px solid #fff;
 }
 
